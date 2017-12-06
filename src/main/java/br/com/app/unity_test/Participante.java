@@ -1,6 +1,6 @@
 package br.com.app.unity_test;
 
-public class E0_Participante {
+public class Participante {
 
 	private String name;
 	private String lastName;

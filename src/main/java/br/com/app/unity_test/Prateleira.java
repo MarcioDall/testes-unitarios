@@ -2,12 +2,12 @@ package br.com.app.unity_test;
 
 import java.util.List;
 
-public class E4_Prateleira {
+public class Prateleira {
 
 	private int numero;
-	private List<E4_Item> itens;
+	private List<Item> itens;
 
-	public E4_Prateleira(int numero, List<E4_Item> itens) {
+	public Prateleira(int numero, List<Item> itens) {
 		this.numero = numero;
 		this.itens = itens;
 	}
@@ -16,7 +16,7 @@ public class E4_Prateleira {
 		return numero;
 	}
 
-	public List<E4_Item> getItens() {
+	public List<Item> getItens() {
 		return itens;
 	}
 }
