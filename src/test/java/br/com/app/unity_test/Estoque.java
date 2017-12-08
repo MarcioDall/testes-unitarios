@@ -5,9 +5,11 @@ import java.util.List;
 
 import org.junit.Test;
 
+import br.com.app.estoque.Item;
+import br.com.app.estoque.Prateleira;
 import junit.framework.Assert;
 
-public class PrateleiraTest {
+public class Estoque {
 @Test
 	public void insere_2_itens_deixa_2_slots_vazio() {
 		List<Item> itens = new ArrayList<Item>();
