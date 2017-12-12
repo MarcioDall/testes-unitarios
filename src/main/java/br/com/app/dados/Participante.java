@@ -6,7 +6,7 @@ public class Participante {
 	private String lastName;
 	private int year;
 	private int weight;
-	public int altura;
+	private int altura;
 	
 	
 //Nome

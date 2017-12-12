@@ -14,7 +14,7 @@ import org.junit.Test;
 import br.com.app.estoque.Item;
 import br.com.app.estoque.Prateleira;
 
-public class Estoque {
+public class EstoqueTest {
 //	@Test
 //	public void insere_2_itens_deixa_2_slots_vazio() {
 //		List<Item> itens = new ArrayList<Item>();
