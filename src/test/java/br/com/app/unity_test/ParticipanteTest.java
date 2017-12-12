@@ -32,9 +32,7 @@ public class ParticipanteTest {
 	@Test
 	public void Valida_setar_peso() {
 		Participante p4 = new Participante();
-
 		p4.setWeight(100);
-
 		assertEquals(100, p4.getWeight());
 	}
 }
