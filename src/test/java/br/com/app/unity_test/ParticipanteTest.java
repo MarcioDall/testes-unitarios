@@ -35,4 +35,11 @@ public class ParticipanteTest {
 		p4.setWeight(100);
 		assertEquals(100, p4.getWeight());
 	}
+	
+	@Test
+	public void Valida_setar_altura() {
+		Participante p5 = new Participante();
+		p5.setAltura(186);
+		assertEquals(186, p5.getAltura());
+	}
 }

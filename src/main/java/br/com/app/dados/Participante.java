@@ -6,9 +6,10 @@ public class Participante {
 	private String lastName;
 	private int year;
 	private int weight;
+	public int altura;
+	
 	
 //Nome
-	
 	public String getNome() {
 		return name;
 	}
@@ -18,7 +19,6 @@ public class Participante {
 	}
 
 //last Name
-	
 	public String getLastName() {
 		return lastName;
 	}
@@ -26,7 +26,6 @@ public class Participante {
 	
 	public void setLastName(String sobrenome) {
 		this.lastName = sobrenome;
-		
 	}	
 	
 //idade	
@@ -47,6 +46,13 @@ public class Participante {
 	public Object getWeight() {
 		return weight;
 	}
-
-
+	
+//Altura
+	public void setAltura(int altura) {
+		this.altura = altura;
+	}
+	
+	public Object getAltura() {
+		return altura;
+	}
 }
