@@ -1,6 +1,6 @@
-package br.com.app.dados;
+package br.com.app.data;
 
-public class Participante {
+public class participant {
 
 	private String name;
 	private String lastName;
