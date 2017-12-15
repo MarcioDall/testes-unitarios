@@ -11,10 +11,10 @@ import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
 
-import br.com.app.Storage.Item;
-import br.com.app.Storage.Shelf;
+import br.com.app.inventory.Item;
+import br.com.app.inventory.Shelf;
 
-public class StorageTest {
+public class InventoryTest {
 	@Test
 	public void insert_new_item() {
 		
@@ -23,16 +23,10 @@ public class StorageTest {
 		List<Item> itens = new ArrayList<Item>();
 		itens.add(new Item(plate));
 		Shelf prateleira = new Shelf(1, itens);
-
 		
 		for (Item item : itens) {
 			assertEquals(plate, (item.getName()));
-		
 			
  		}
-		
-		
 	}
-	
-	
 }

@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import br.com.app.data.participant;
 
-public class participantTest {
+public class ParticipantTest {
 
 	@Test
 	public void Valid_set_name() {

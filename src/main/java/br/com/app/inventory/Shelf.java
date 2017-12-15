@@ -1,4 +1,4 @@
-package br.com.app.Storage;
+package br.com.app.inventory;
 
 import java.util.List;
 
@@ -10,13 +10,5 @@ public class Shelf {
 	public Shelf(int number, List<Item> itens) {
 		this.number = number;
 		this.itens = itens;
-	}
-
-	public int getnumber() {
-		return number;
-	}
-
-	public List<Item> getItens() {
-		return itens;
 	}
 }

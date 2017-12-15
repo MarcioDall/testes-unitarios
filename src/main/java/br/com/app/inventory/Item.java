@@ -1,4 +1,4 @@
-package br.com.app.Storage;
+package br.com.app.inventory;
 
 public class Item {
 

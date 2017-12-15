@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import br.com.app.biggerNumber.BiggerNumber;
+import br.com.app.bigger_number.BiggerNumber;
 
 public class BiggerNumberTest {
 

@@ -1,4 +1,4 @@
-package br.com.app.biggerNumber;
+package br.com.app.bigger_number;
 
 public class BiggerNumber {
 
